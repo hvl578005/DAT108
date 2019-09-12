@@ -16,12 +16,9 @@ public class Oppg2b {
 		BiFunction<Integer, Integer, Integer> stoerreEnn = (s1, s2) -> Math.max(s1, s2);
 		BiFunction<Integer, Integer, Integer> differanse = (s1, s2) -> Math.abs(s1-s2);
 		
-		beregn(12, 13, summer);
-		beregn(-5, 3, stoerreEnn);
-		beregn(54, 45, differanse);
-
+		System.out.println(beregn(12, 13, summer));
+		System.out.println(beregn(-5, 3, stoerreEnn));
+		System.out.println(beregn(54, 45, differanse));
+	
 	}
-	
-	
-
 }
