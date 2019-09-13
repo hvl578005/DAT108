@@ -13,7 +13,6 @@ public class Oppg3 {
 		for (int i = 0; i<ansatte.size(); i++) {
 			ansatte.get(i).setAarslonn(fun.apply(ansatte.get(i)));
 		}
-		
 	}
 
 	public static void main(String[] args) {
